@@ -1,0 +1,38 @@
+{
+  "logging": true,
+  "authentication": {
+    "use-token": false,
+    "email": "",
+    "api-auth": ""
+  },
+  "dns": [
+    {
+      "zone-id": "46931743886d7a6831daaf1403c5a1f6",
+      "records": [
+        {
+          "name": "play",
+          "type": "SRV",
+          "proto": "TCP",
+          "service": "_minecraft",
+          "port": 25565,
+          "weight": 0,
+          "priority": 5
+        },
+        {
+          "name": "test",
+          "type": "A",
+          "proxied": false
+        },
+        {
+          "name": "*",
+          "type": "A",
+          "ttl": 3600
+        },
+        {
+          "name": "@",
+          "type": "A"
+        }
+      ]
+    }
+  ]
+}

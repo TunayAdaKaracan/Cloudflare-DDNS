@@ -7,7 +7,7 @@
   },
   "dns": [
     {
-      "zone-id": "46931743886d7a6831daaf1403c5a1f6",
+      "zone-id": "",
       "records": [
         {
           "name": "play",
